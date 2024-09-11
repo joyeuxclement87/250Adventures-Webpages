@@ -1,0 +1,552 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header and Navbar */
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-name {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.nav-center {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-center li a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-center li a:hover {
+    color: #f5a623;
+}
+
+.nav-right .btn-deploy {
+    background-color: #f5a623;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+    margin-right: 100px;
+}
+
+.nav-right .btn-deploy:hover {
+    background-color: #e58e20;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('../img/hero.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero .btn {
+    background-color: #f5a623;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #e58e20;
+}
+
+/* About Us Section */
+.about-section {
+    padding: 100px 20px;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.about-image {
+    flex: 1;
+    display: none; /* Initially hidden for mobile, shown on larger screens */
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-content {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #333;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f5a623; /* Accent color to match your theme */
+    position: relative;
+}
+
+.about-content h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #f5a623;
+    margin-top: 8px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn-about {
+    padding: 12px 30px;
+    background: #f5a623;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-about:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(245, 166, 35, 0.4);
+}
+
+/* Destinations Section */
+.destinations-section {
+    padding: 80px 20px;
+    background-color: #f0f4f8; /* Light background to highlight the cards */
+    text-align: center;
+}
+
+.destinations-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    position: relative;
+}
+
+.destinations-section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #f5a623; /* Accent color to match your theme */
+    margin: 10px auto;
+}
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.destination-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff;
+}
+
+.destination-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.destination-card:hover img {
+    transform: scale(1.1);
+}
+
+.destination-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.destination-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f5a623; /* Match the accent color */
+}
+
+.destination-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.features-grid, .destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Card Styles */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 15px;
+    color: #f5a623;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    color: #666;
+}
+/* Cultural Experiences Section */
+.cultural-section {
+    padding: 80px 20px;
+    background-color: #ffffff; /* Light background to keep it fresh */
+    text-align: center;
+}
+
+.cultural-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    position: relative;
+}
+
+.cultural-section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #f5a623; /* Accent color */
+    margin: 10px auto;
+}
+
+.culture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.culture-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ffffff;
+}
+
+.culture-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.culture-card:hover .culture-image {
+    transform: scale(1.1);
+}
+
+.culture-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.culture-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #f5a623; /* Accent color */
+}
+
+.culture-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+.culture-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+/* Testimonials Section */
+.testimonials-section {
+    padding: 80px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    position: relative;
+}
+
+.testimonials-section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #f5a623; /* Accent color */
+    margin: 10px auto;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-content p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    position: relative;
+}
+
+.contact-section h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #f5a623; /* Accent color */
+    margin: 10px auto;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-input,
+.contact-textarea {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-btn {
+    padding: 15px;
+    background-color: #f5a623;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #e59400;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
+    color: #f5a623;
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-details li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.contact-details i {
+    margin-right: 10px;
+    color: #f5a623;
+}
+
+
+
+
+
+
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer a {
+    color: #f5a623;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #e58e20;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+    .about-image {
+        display: block; /* Show image on tablet and larger screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .about-content {
+        padding: 30px; /* Adjust padding for smaller screens */
+    }
+}
