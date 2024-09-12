@@ -24,8 +24,8 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
 
-  git clone https://github.com/joyeuxclement87/250Adventure-project-landing-page-.git
+  git clone https://github.com/joyeuxclement87/250Adventures-Webpages
 
   Live Demo
 You can view the live demo of the project
-https://joyeuxclement87.github.io/250Adventure-project-landing-page-/
+https://joyeuxclement87.github.io/250Adventures-Webpages/
