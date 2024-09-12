@@ -16,9 +16,9 @@ this is my portifolio project about the 250 adventures webpage helps to explore 
 
 Meet the creators behind the project:
 
-    [joyeux clement Tuyishimire]
-        [Linked in](https://www.linkedin.com/in/tuyishimire-joyeux-clement-32418528a/)
-        [Githu](https://github.com/joyeuxclement87)
+[joyeux clement Tuyishimire]
+[Linked in](https://www.linkedin.com/in/tuyishimire-joyeux-clement-32418528a/)
+[Githu](https://github.com/joyeuxclement87)
 
 ## Features
 
