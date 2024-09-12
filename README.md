@@ -8,9 +8,17 @@ this is my portifolio project about the 250 adventures webpage helps to explore 
 
 # 250 Adventure
 
-## Overview
+## About-----------
 
 **250 Adventure** is a tourism promotion website designed to showcase the beauty, culture, and attractions of Rwanda. This project aims to provide a comprehensive guide for travelers looking to explore Rwanda's stunning landscapes, vibrant cities, and rich cultural experiences.
+
+# Team
+
+Meet the creators behind the project:
+
+    [joyeux clement Tuyishimire]
+        [Linked in](https://www.linkedin.com/in/tuyishimire-joyeux-clement-32418528a/)
+        [Githu](https://github.com/joyeuxclement87)
 
 ## Features
 
