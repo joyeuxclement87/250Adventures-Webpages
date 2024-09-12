@@ -1,8 +1,7 @@
 working on the project landing pages on alx
 --------------------------------------------
 ![Cover Image](./img/Shot-2024-09-12-135659.png)
-
-
+![Cover Image](./img/Shot-2024-09-12-140423.png)
 
 
 this is my portifolio project about the 250 adventures webpage helps to explore Rwanda
