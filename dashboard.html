@@ -3,76 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>250 Adventures - Dashboard</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>250Adventure Dashboard</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="book.html">Book Trip</a></li>
-                <li><a href="login.html" id="logout-link">Logout</a></li>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <h2>250Adventure</h2>
+            <ul>
+                <li><a href="#home">🏠 Home</a></li>
+                <li><a href="#discover">🌍 Discover Locations</a></li>
+                <li><a href="#book">📅 Book a Trip</a></li>
+                <li><a href="#bookings">🧳 My Bookings</a></li>
+                <li><a href="#chat">💬 Chat with Guides</a></li>
+                <li><a href="#tips">🗺️ Travel Tips</a></li>
+                <li><a href="#settings">⚙️ Profile Settings</a></li>
+                <li><a href="#logout">🚪 Logout</a></li>
             </ul>
         </nav>
-    </header>
-    <main class="dashboard">
-        <aside class="sidebar">
-            <h2>Account Options</h2>
-            <ul class="sidebar-menu">
-                <li><a href="update-profile.html"><i class="fas fa-user-edit"></i> Update Profile</a></li>
-                <li><a href="change-password.html"><i class="fas fa-key"></i> Change Password</a></li>
-                <li><a href="view-history.html"><i class="fas fa-history"></i> View History</a></li>
-            </ul>
-        </aside>
 
-        <section class="content">
-            <section id="welcome" class="section welcome-section">
-                <h2>Welcome, [User's Name]!</h2>
-                <p><strong>Email:</strong> [user@example.com]</p>
-                <p>We’re thrilled to have you with us. Here are your upcoming trips and options to manage them.</p>
-            </section>
-
-            <section id="bookings" class="section">
-                <h2>Upcoming Trips</h2>
-                <div class="trip-card">
-                    <img src="img/volcanoes.jpg" alt="Volcanoes National Park">
-                    <div class="trip-info">
-                        <h4>Volcanoes National Park</h4>
-                        <p><strong>Date:</strong> August 15, 2024</p>
-                        <p><strong>Details:</strong> A thrilling adventure through the lush rainforests, home to the majestic mountain gorillas.</p>
-                        <div class="trip-actions">
-                            <a href="update-trip.html?trip=volcanoes" class="btn">Update Date</a>
-                            <a href="#" class="btn btn-cancel">Cancel Trip</a>
-                        </div>
-                    </div>
+        <!-- Main Dashboard Area -->
+        <div class="main-content">
+            <header>
+                <h1>Welcome,T.Joyeux clement</h1>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search destinations, trips, guides...">
                 </div>
-                <div class="trip-card">
-                    <img src="img/lake_kivu.jpg" alt="Lake Kivu">
-                    <div class="trip-info">
-                        <h4>Lake Kivu</h4>
-                        <p><strong>Date:</strong> September 10, 2024</p>
-                        <p><strong>Details:</strong> Enjoy the serene beauty of Lake Kivu, with options for boating and exploring the surrounding areas.</p>
-                        <div class="trip-actions">
-                            <a href="update-trip.html?trip=lake_kivu" class="btn">Update Date</a>
-                            <a href="#" class="btn btn-cancel">Cancel Trip</a>
-                        </div>
-                    </div>
+                <div class="notifications">
+                    <span>🔔 Notifications</span>
+                </div>
+            </header>
+
+            <section class="dashboard-overview">
+                <!-- Upcoming Trips Section -->
+                <div class="card upcoming-trips">
+                    <h3>Upcoming Trips</h3>
+                    <ul>
+                        <li>Kigali City Tour - September 28, 2024</li>
+                        <li>Gorilla Trekking - October 15, 2024</li>
+                    </ul>
+                </div>
+
+                <!-- Explore Rwanda Section -->
+                <div class="card explore-rwanda">
+                    <h3>Explore Rwanda</h3>
+                    <p>Discover the beauty of Rwanda, from majestic mountains to serene lakes.</p>
+                    <button>Explore Now</button>
+                </div>
+
+                <!-- Booking Calendar Section -->
+                <div class="card booking-calendar">
+                    <h3>Your Booking Calendar</h3>
+                    <iframe src="https://calendar.google.com/calendar/embed?..." frameborder="0"sty></iframe>
                 </div>
             </section>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2024 250 Adventures. All rights reserved.</p>
-            <ul class="footer-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="book-trip.html">Book Trip</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="register.html">Register</a></li>
-            </ul>
-        </div>
-    </footer>
+
+            <section class="dashboard-locations">
+                <!-- Highlighted Locations Section -->
+                <div class="card location-highlight">
+                    <h3>Top Locations</h3>
+                    <div class="location-grid">
+                        <div class="location-item">
+                            <img src="./img/volcanoes.jpg" alt="Volcano National Park">
+                            <h4>Volcano National Park</h4>
+                        </div>
+                        <div class="location-item">
+                            <img src="./img/kigali.jpg" alt="Kigali City">
+                            <h4>Kigali City</h4>
+                        </div>
+                        <div class="location-item">
+                            <img src="./img/Game-Drives-in-Akagera-National-Parks-750x374-1.jpg" alt="Akagera Park">
+                            <h4>Akagera National Park</h4>
+                        </div>
+                  </div>
+              </div>
+          </section>
+      </div>
+    </div>
+
+    <script src="dashboard.js"></script>
 </body>
 </html>
+
+

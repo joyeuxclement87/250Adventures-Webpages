@@ -29,8 +29,10 @@ a {
 }
 
 .site-name {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bolder;
+    position: relative;
+    left: 30%;
 }
 
 .nav-center {
@@ -55,7 +57,23 @@ a {
     border-radius: 5px;
     color: white;
     transition: background-color 0.3s;
-    margin-right: 100px;
+    margin-right: 40px;
+    position: relative;
+    left: -15%;
+}
+.nav-right .btn-deploy2{
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s;
+    margin-right: 40px;
+    position: relative;
+    left: -10%;
+}
+.nav-right .btn-deploy2:hover{
+  background-color: darkgreen;
 }
 
 .nav-right .btn-deploy:hover {
