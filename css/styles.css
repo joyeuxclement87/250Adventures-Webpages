@@ -90,18 +90,20 @@ a {
     text-align: center;
     color: white;
     position: relative;
+    width: 100%;
 }
 
 .hero .overlay {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 150px;
     border-radius: 10px;
+    width: 50%;
 }
 
 .hero .btn {
     background-color: #f5a623;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 60px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -192,7 +194,7 @@ a {
 /* Destinations Section */
 .destinations-section {
     padding: 80px 20px;
-    background-color: #f0f4f8; /* Light background to highlight the cards */
+    background-color: #f0f4f8; 
     text-align: center;
 }
 
@@ -208,7 +210,7 @@ a {
     display: block;
     width: 60px;
     height: 4px;
-    background: #f5a623; /* Accent color to match your theme */
+    background: #f5a623; 
     margin: 10px auto;
 }
 
@@ -246,7 +248,7 @@ a {
 .destination-content h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #f5a623; /* Match the accent color */
+    color: #f5a623; 
 }
 
 .destination-content p {
