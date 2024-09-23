@@ -135,7 +135,7 @@ a {
 
 .about-image {
     flex: 1;
-    display: none; /* Initially hidden for mobile, shown on larger screens */
+    display: none; 
 }
 
 .about-image img {
@@ -156,7 +156,7 @@ a {
 .about-content h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #f5a623; /* Accent color to match your theme */
+    color: #f5a623; 
     position: relative;
 }
 
@@ -312,7 +312,7 @@ a {
 /* Cultural Experiences Section */
 .cultural-section {
     padding: 80px 20px;
-    background-color: #ffffff; /* Light background to keep it fresh */
+    background-color: #ffffff; 
     text-align: center;
 }
 
@@ -328,7 +328,7 @@ a {
     display: block;
     width: 60px;
     height: 4px;
-    background: #f5a623; /* Accent color */
+    background: #f5a623;
     margin: 10px auto;
 }
 
@@ -366,7 +366,7 @@ a {
 .culture-content h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #f5a623; /* Accent color */
+    color: #f5a623; 
 }
 
 .culture-content p {
@@ -398,7 +398,7 @@ a {
     display: block;
     width: 60px;
     height: 4px;
-    background: #f5a623; /* Accent color */
+    background: #f5a623; 
     margin: 10px auto;
 }
 
@@ -458,7 +458,7 @@ a {
     display: block;
     width: 60px;
     height: 4px;
-    background: #f5a623; /* Accent color */
+    background: #f5a623; 
     margin: 10px auto;
 }
 
@@ -561,12 +561,12 @@ a {
 /* Responsive Adjustments */
 @media (min-width: 768px) {
     .about-image {
-        display: block; /* Show image on tablet and larger screens */
+        display: block; 
     }
 }
 
 @media (max-width: 767px) {
     .about-content {
-        padding: 30px; /* Adjust padding for smaller screens */
+        padding: 30px; 
     }
 }
