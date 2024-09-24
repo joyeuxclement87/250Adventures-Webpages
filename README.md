@@ -23,20 +23,22 @@ To set up the project locally, follow these steps:
 Clone the repository:
 
 
-git clone https://github.com/yourusername/250Adventure.git
+git clone https://github.com/joyeuxclement87/250Adventures-Webpages.git
+
 Navigate into the project directory:
 
+```
 cd 250Adventure
+````
 
 Install dependencies:
 ```
 npm install
 ```
-
-
 Start the development server:
-
+``
 npm start
+``
 Visit the app on your local browser at http://localhost:3000.
 
 Usage
@@ -52,18 +54,24 @@ Fork the repository.
 
 Create a new branch for your feature or bugfix:
 
+``
 git checkout -b feature/your-feature
-
+``
+``
 Make your changes and commit:
-
-git commit -m 'Add a new feature'
-
+``
+``
+git commit -m 'Add a new your-feature
+``
+``
 git push origin feature/your-feature
-
+``
+``
 Open a Pull Request.
-
+``
+``
 Related Projects
-
+``
 If you are interested in similar projects, you might want to check out:
 
 RwandaTour
