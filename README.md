@@ -64,12 +64,8 @@ Make your changes and commit:
 git commit -m 'add new your feature'
 ```
 ```
-````
-```
 git commit -m 'Add a new your-feature
-````
 ```
-````
 ```
 git push origin feature/your-feature
 ```
