@@ -21,23 +21,26 @@ working on the project landing pages on alx
 To set up the project locally, follow these steps:
 
 Clone the repository:
-bash
-Copy code
+
+
 git clone https://github.com/yourusername/250Adventure.git
 Navigate into the project directory:
-bash
-Copy code
+
 cd 250Adventure
+
 Install dependencies:
-bash
-Copy code
+```
 npm install
+```
+
+
 Start the development server:
-bash
-Copy code
+
 npm start
 Visit the app on your local browser at http://localhost:3000.
+
 Usage
+
 Users can explore popular tourist destinations in Rwanda.
 They can book trips directly from the platform.
 Tour guides can be contacted for personalized trip advice.
@@ -64,7 +67,9 @@ Related Projects
 If you are interested in similar projects, you might want to check out:
 
 RwandaTour
+
 ExploreAfrica
+
 EcoTour
 
 ## **Licensing**
