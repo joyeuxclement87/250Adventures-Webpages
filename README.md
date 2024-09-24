@@ -36,9 +36,9 @@ Install dependencies:
 npm install
 ```
 Start the development server:
-``
+```
 npm start
-``
+```
 Visit the app on your local browser at http://localhost:3000.
 
 Usage
@@ -48,30 +48,35 @@ They can book trips directly from the platform.
 Tour guides can be contacted for personalized trip advice.
 
 Contributing
+
 Contributions are welcome! To contribute:
 
 Fork the repository.
 
 Create a new branch for your feature or bugfix:
 
-``
+```
 git checkout -b feature/your-feature
-``
-``
+```
 Make your changes and commit:
-``
-``
+
+```
+git commit -m 'add new your feature'
+```
+```
+````
+```
 git commit -m 'Add a new your-feature
-``
-``
+````
+```
+````
+```
 git push origin feature/your-feature
-``
-``
+```
+
 Open a Pull Request.
-``
-``
-Related Projects
-``
+
+Related projects
 If you are interested in similar projects, you might want to check out:
 
 RwandaTour
