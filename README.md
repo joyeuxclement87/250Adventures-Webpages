@@ -3,21 +3,21 @@ working on the project landing pages on alx
 ![Cover Image](./img/Shot-2024-09-12-135659.png)
 ![Cover Image](./img/Shot-2024-09-12-140423.png)
 
-#**250Adventure**
+# **250Adventure**
 
 
-##**Introduction**
+## **Introduction**
 
 250Adventure is a travel platform designed to showcase the best tourist destinations in Rwanda. The platform allows users to explore locations, book trips, and chat directly with experienced tour guides for personalized guidance. Whether you're planning a mountain hike, a cultural tour, or a wildlife adventure, 250Adventure connects you with the best resources for an unforgettable experience.
 
 [Deployed Site: Visit 250Adventure](https://joyeuxclement87.github.io/250Adventures-Webpages/)
 [Blog Article: Read the full story behind 250Adventure](https://www.linkedin.com/pulse/discover-rwanda-250adventure-tuyishimire-joyeux-clement-fxvif)
 
-##**Authors:**
+## **Authors:**
 
 [LinkedIn Profile](https://www.linkedin.com/in/tuyishimire-joyeux-clement-32418528a/)
 
-##**Installation**
+## **Installation**
 To set up the project locally, follow these steps:
 
 Clone the repository:
@@ -46,18 +46,19 @@ Contributing
 Contributions are welcome! To contribute:
 
 Fork the repository.
+
 Create a new branch for your feature or bugfix:
-bash
-Copy code
+
 git checkout -b feature/your-feature
+
 Make your changes and commit:
-bash
-Copy code
+
 git commit -m 'Add a new feature'
-Push to the branch:
-bash
+
 git push origin feature/your-feature
+
 Open a Pull Request.
+
 Related Projects
 
 If you are interested in similar projects, you might want to check out:
@@ -66,12 +67,12 @@ RwandaTour
 ExploreAfrica
 EcoTour
 
-##**Licensing**
+## **Licensing**
 
 This project is licensed under the MIT License -
-##**Story and Inspiration**
+## **Story and Inspiration**
 
 250Adventure was inspired by a personal love for exploring Rwanda's rich culture and diverse landscapes. I wanted to create a platform that not only highlights the country’s most popular destinations but also makes it easier for tourists to connect with local guides and book their entire trip in one place.
 
-##**Technical Challenges**
+## **Technical Challenges**
 One of the biggest technical challenges was implementing the live chat functionality between users and tour guides. After considering several real-time communication protocols, I decided to use WebSocket for its efficiency in handling real-time interactions. While this was my first time working with WebSocket, I eventually built a scalable solution that allowed for seamless, real-time communication.
