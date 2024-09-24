@@ -11,13 +11,19 @@ working on the project landing pages on alx
 250Adventure is a travel platform designed to showcase the best tourist destinations in Rwanda. The platform allows users to explore locations, book trips, and chat directly with experienced tour guides for personalized guidance. Whether you're planning a mountain hike, a cultural tour, or a wildlife adventure, 250Adventure connects you with the best resources for an unforgettable experience.
 
 [Deployed Site: Visit 250Adventure](https://joyeuxclement87.github.io/250Adventures-Webpages/)
+
+
 [Blog Article: Read the full story behind 250Adventure](https://www.linkedin.com/pulse/discover-rwanda-250adventure-tuyishimire-joyeux-clement-fxvif)
+
 
 ## **Authors:**
 
+
 [LinkedIn Profile](https://www.linkedin.com/in/tuyishimire-joyeux-clement-32418528a/)
 
+
 ## **Installation**
+
 To set up the project locally, follow these steps:
 
 Clone the repository:
